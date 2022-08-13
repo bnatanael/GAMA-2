@@ -9,25 +9,83 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <div class="container-fluid" id="header">
+    <header class="container-fluid" id="header">
         <div class="row">
-            <div class="col-md-6" id="logo">
-                <a href="index.html">
-                <img src="dindin-imagens/dindin-imagens/logo-header.png"/>
-                </a>
+            <div class="container text-center" id="header">
+                <header class="d-flex flex-wrap justify-content-center py-3 mb-4 lg-2" id="logo">
+                  <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                    <img src="dindin-imagens/dindin-imagens/logo-header.png"/>
+                    <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+                  </a>
+            
+                  <ul class="nav nav-pills" id="menu">
+                    <li class="nav-item"><a href="CURSOS.HTML" class="nav-link" aria-current="page">CURSOS</a></li>
+                    <li class="nav-item"><a href="BLOG.HTML" class="nav-link">BLOG</a></li>
+                    <li class="nav-item"><a href="CONTATO.HTML" class="nav-link">CONTATO</a></li>
+                  </ul>
+                </header>
+              </div> 
+    </header>
+
+    <div class="container-fluid px-5">
+        <div class="row py-5 px-5">    
+    <h1 id="cursos">Cursos</h1>
+            <p>Educação financeira é tudo de bom</p>
+        </div>
+        <div class="container-fluid py-5 px-5">
+            <div class="row" id="investinci">
+                <div class="col-md-4">
+                    <img alt="Bootstrap Image Preview" src="dindin-imagens/dindin-imagens/ilustra-poupando.png" />
+                </div>
+                <div class="col-md-4 py-5">
+                    <h2>
+                        Investimento para iniciantes
+                    </h2>
+                    <p class="py-4">
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
+                    </p>
+                    <p>
+                        <a href="CURSOINICIANTE.html">
+                        <button class="button4 button4">Começar agora</button>
+                        </a>
+                    </p>
+                </div>
             </div>
-            <div class="col-md-6" id="menu">
-                <ul class="nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="CURSOS.HTML">CURSOS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="BLOG.HTML">BLOG</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="CONTATO.HTML">CONTATO</a>
-                    </li>
-                </ul>
+            <div class="row py-5" id="investinci">
+                <div class="col-md-4">
+                    <img alt="Bootstrap Image Preview" src="dindin-imagens/dindin-imagens/ilustra-investimento.png" />
+                </div>
+                <div class="col-md-4 py-5">
+                    <h2>
+                        Poupando e Rendendo
+                    </h2>
+                    <p class="py-4">
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
+                    </p>
+                    <p>
+                        <a href="#">
+                        <button class="button4 button4">Começar agora</button>
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="row py-5" id="indepfinan">
+                <div class="col-md-4">
+                    <img alt="Bootstrap Image Preview" src="dindin-imagens/dindin-imagens/ilustra-independencia.png" />
+                </div>
+                <div class="col-md-4 py-5">
+                    <h2>
+                        Independência Financeira
+                    </h2>
+                    <p class="py-4">
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
+                    </p>
+                    <p>
+                        <a href="#">
+                        <button class="button4 button4">Começar agora</button>
+                        </a>
+                    </p>
+                </div>
             </div>
         </div>
     </div>

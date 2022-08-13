@@ -9,28 +9,23 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <div class="container-fluid" id="header">
-        <div class="row">
-            <div class="col-md-6" id="logo">
-                <a href="index.html">
-                <img src="dindin-imagens/dindin-imagens/logo-header.png"/>
-                </a>
-            </div>
-            <div class="col-md-6" id="menu">
-                <ul class="nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="CURSOS.HTML">CURSOS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="BLOG.HTML">BLOG</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="CONTATO.HTML">CONTATO</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
+    <header class="container-fluid" id="header">
+        <div class="row g-2">
+            <div class="container text-center" id="header">
+                <header class="d-flex flex-wrap justify-content-center py-3 mb-4 lg-2" id="logo">
+                  <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                    <img src="dindin-imagens/dindin-imagens/logo-header.png"/>
+                    <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+                  </a>
+            
+                  <ul class="nav nav-pills" id="menu">
+                    <li class="nav-item"><a href="CURSOS.HTML" class="nav-link" aria-current="page">CURSOS</a></li>
+                    <li class="nav-item"><a href="BLOG.HTML" class="nav-link">BLOG</a></li>
+                    <li class="nav-item"><a href="CONTATO.HTML" class="nav-link">CONTATO</a></li>
+                  </ul>
+                </header>
+              </div> 
+    </header>
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-6">

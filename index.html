@@ -9,31 +9,26 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <div class="container-fluid" id="header">
+    <header class="container-fluid" id="header">
         <div class="row">
-            <div class="col-md-6" id="logo">
-                <a href="index.html">
-                <img src="dindin-imagens/dindin-imagens/logo-header.png"/>
-                </a>
-            </div>
-            <div class="col-md-6" id="menu">
-                <ul class="nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="CURSOS.HTML">CURSOS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="BLOG.HTML">BLOG</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="CONTATO.HTML">CONTATO</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid" id="banner">
-        <div class="row">
-            <div class="col-md-4" id="textobanner">
+            <div class="container text-center" id="header">
+                <header class="d-flex flex-wrap justify-content-center py-3 mb-4 lg-2" id="logo">
+                  <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                    <img src="dindin-imagens/dindin-imagens/logo-header.png"/>
+                    <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+                  </a>
+            
+                  <ul class="nav nav-pills" id="menu">
+                    <li class="nav-item"><a href="CURSOS.HTML" class="nav-link" aria-current="page">CURSOS</a></li>
+                    <li class="nav-item"><a href="BLOG.HTML" class="nav-link">BLOG</a></li>
+                    <li class="nav-item"><a href="CONTATO.HTML" class="nav-link">CONTATO</a></li>
+                  </ul>
+                </header>
+              </div> 
+    </header>
+    <div class="container-fluid py-5 px-5 text-center" id="banner">
+        <div class="row row-cols-md-6 py-5">
+            <div class="col-md-6" id="textobanner">
                 <h2 id="tituloban">
                     Educação Financeira é tudo de bom
                 </h2>
@@ -44,52 +39,67 @@
                     <button class="button button1">quero saber mais</button>
                 </p>
             </div>
-            <div class="col-md-12" id="ilustra-banner">
-                <img src="dindin-imagens/dindin-imagens/ilustra-banner.png">
+            <div class="col-md-6">
+                <img src="dindin-imagens/dindin-imagens/ilustra-banner.png"/>
             </div>
         </div>
     </div>
-    <div class="container-fluid" id="cursos">
-        <div class="row">
-            <div class="col-md-4" id="curso1">
-                <img src="dindin-imagens/dindin-imagens/ilustra-investimento.png"/>
-                <h2>
-                    Investimento para iniciantes
-                </h2>
-                <p>
-                    Duis aute irure dolor in reprehenderit in voluptate velit es se cillum dolore eu fugiat nulla pariatur.
-                </p>
-                <p>
-                    <a href="CURSOINICIANTE.html">
-                    <button class="button2 button2">Começar agora</button>
-                    </a>
-                </p>
+    <div class="album py-3 bg-light" id="cursos">
+        <div class="container-fluid row">
+    
+          <div class="row row-cols-md-3 g-3 py-3 px-5">
+            <div class="col text-center">
+              <div class="sm">
+                <img class="bd-placeholder-img card-img-top" src="dindin-imagens/dindin-imagens/ilustra-investimento.png" />
+                <div class="header py-3"><h2>Investimento para iniciantes</h2></div>
+                <div class="body">
+                  <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit es se cillum dolore eu fugiat nulla pariatur.</p>
+                  <div class="">
+                    <div class="btn-group">
+                        <p>
+                            <a href="CURSOINICIANTE.html">
+                            <button class="button2 button2">Começar agora</button>
+                            </a>
+                        </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="col-md-4" id="curso2">
-                <img src="dindin-imagens/dindin-imagens/ilustra-poupando.png"/>
-                <h2>
-                    Poupando e rendendo
-                </h2>
-                <p>
-                    Duis aute irure dolor in reprehenderit in voluptate velit es se cillum dolore eu fugiat nulla pariatur.
-                </p>
-                <p>
-                    <button class="button2 button2">Começar agora</button>
-                </p>
-            </div>
-            <div class="col-md-4" id="curso3">
-                <img src="dindin-imagens/dindin-imagens/ilustra-independencia.png" id="indepfin"/>
-                <h2>
-                    Independência Financeira
-                </h2>
-                <p>
-                    Duis aute irure dolor in reprehenderit in voluptate velit es se cillum dolore eu fugiat nulla pariatur.
-                </p>
-                <p>
-                    <button class="button2 button2">Começar agora</button>
-                </p>
-            </div>
+            <div class="col text-center">
+                <div class="sm">
+                  <img class="bd-placeholder-img card-img-top" src="dindin-imagens/dindin-imagens/ilustra-poupando.png" width="100%" height="auto" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Poupando e rendendo</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+                  <div class="header py-3"><h2>Poupando e rendendo</h2></div>
+                  <div class="body">
+                    <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit es se cillum dolore eu fugiat nulla pariatur.</p>
+                    <div class="">
+                      <div class="btn-group">
+                          <p>
+                              <button class="button2 button2">Começar agora</button>
+                          </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col text-center">
+                <div class="sm">
+                  <img class="bd-placeholder-img card-img-top" src="dindin-imagens/dindin-imagens/ilustra-independencia.png" width="100%" height="auto" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Independência Financeira</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+                  <div class="header py-3"><h2>Independência Financeira</h2></div>
+                  <div class="body">
+                    <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit es se cillum dolore eu fugiat nulla pariatur.</p>
+                    <div class="">
+                      <div class="btn-group">
+                          <p>
+                              <button class="button2 button2">Começar agora</button>
+                          </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
         </div>
+    </div>
     </div>
     <div class="container-fluid" id="comentarios">
         <div class="row">
